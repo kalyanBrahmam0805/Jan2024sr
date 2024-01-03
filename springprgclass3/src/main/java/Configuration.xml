@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="st1" class="hyberprgclass3.Student">
+<constructor-arg value="102"></constructor-arg>
+<constructor-arg value="Kalyan"></constructor-arg>
+<constructor-arg value="8.90"></constructor-arg>
+
+</bean>
+</beans>
